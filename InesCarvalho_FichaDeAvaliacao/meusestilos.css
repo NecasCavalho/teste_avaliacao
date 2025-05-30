@@ -1,0 +1,92 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.parallax {
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+}
+.backgdimg {
+    background-image: url(Img/Img01.webp);
+}
+.backgdimg2 {
+    background-image: url(Img/Img02.jpg);
+}
+.texto01 h1 {
+   width: 400px;
+   text-align: right;
+   padding: 20px;
+   color: white;
+   font-size: 60px;
+}
+.texto01 p {
+   width: 400px;
+   text-align: right;
+   padding: 20px;
+   color: white;
+   font-size: 20px;
+   position: absolute;
+}
+.box {
+    padding: 65px;
+    background-color: darkgrey;
+    color: black;
+}
+.imagens {
+   text-align: center;
+   margin-top: 35px;
+}
+.imagens img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    margin: 40px;
+}
+.imgbck {
+    background-color: gray;
+} 
+.parallax02 {
+    background-image: url(Img/Img07.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    justify-content: flex-start;
+    color: white;
+}
+.texto02 h1 {
+    font-size: 35px;
+    margin: 0px;
+}
+.texto02 p {
+    font-size: 20px;
+    margin: 05px;
+}
+.box02 {
+    background-color: darkgray;
+    padding: 35px;
+    position: static;
+}
+.box02 h2  {
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    position: static;
+    border-radius: 05px;
+    border-color: black;
+}
